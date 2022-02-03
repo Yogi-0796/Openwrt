@@ -1,0 +1,41 @@
+.dropbtncust {
+  color: white;
+  border: none;
+}
+.dropdowncust {
+  position: relative;
+  display: inline-block;
+}
+.dropdowncust-content {
+  display: none;
+  position: absolute;
+  background-color: #404040;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdowncust-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+.dropdowncust-content a:hover {background-color: #5bc0de;}
+.dropdowncust:hover .dropdowncust-content {display: block;}
+.dropdowncust:hover .dropbtncust {background-color: #fff;}
+
+======================
+
+<div class="dropdowncust">
+      <li class="dropbtncust">Buat Akun</li>
+  <div class="dropdowncust-content">
+    <a href="https://kituweh.xyz/?do=home" target='_blank'>KITUWEH</a>
+    <a href="https://howdy.id/" target='_blank'>HOWDY</a>
+    <a href="https://sshkit.com/" target='_blank'>SSHKIT</a>
+    <a href="https://globalssh.net/" target='_blank'>GLOBALSSH</a>
+    <a href="https://www.jagoanssh.com/" target='_blank'>JAGOANSSH</a>
+    <a href="https://www.fastssh.com/" target='_blank'>FASTSSH</a>
+    <a href="https://www.herbalserver.me/" target='_blank'>SSHHERBAL</a>
+    <a href="https://opentunnel.net/" target='_blank'>OPENTUNNEL</a>
+    <a href="http://sshstores.net/" target='_blank'>SSHSTORES</a>
+  </div>
+</div>
